@@ -1,7 +1,17 @@
-import React from "react";
-import { AsyncStorage } from "react-native";
-import Loading from "./Loading";
-import axios from "axios";
+import React, { Component } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+
+import MainScreen from './Components/MainScreen';
+
+const AppStackNavigator = createStackNavigator({
+  Main:{
+    screen: MainScreen // MainScreen 컴포넌트를 네비게이터에 등록
+  }
+});
+
+export default createAppContainer(AppStackNavigator);
 
 const API_KEY = "2bf00f660b1a6a3ffeb6e06ac270cce3";
 const NAVER_CLIENT_ID = "KqPsntd1hcPJ8FUPBGqN";
@@ -26,6 +36,7 @@ const NAVER_CLIENT_SECRET = "0GRb3uya1U";
 //   }
 // );
 
+/*
 export default class extends React.Component {
   state = {
     isLoading: true
@@ -71,3 +82,4 @@ export default class extends React.Component {
     );
   }
 }
+*/
