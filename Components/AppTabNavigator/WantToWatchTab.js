@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { Icon } from 'native-base';
 
-export default class AddMediaTab extends Component {
+export default class WantToWatchTab extends Component {
+    
+    static navigationOptions = {
+        tabBarIcon: ({ tintColor }) => (
+            <Icon name='ios-star' style={{ color: tintColor }} />
+        )
+    }
     render() {
         return (
             <View style={style.container}>
-                <Text>AddMediaTab</Text>
+                <Text>WantToWatchTab</Text>
             </View>
         );
     }
