@@ -39,7 +39,6 @@ export default class Search extends Component {
       )
       .then(response => {
         this.setState({ results: response.data.results });
-        console.log(response.data.results);
       });
   };
 
@@ -80,7 +79,6 @@ export default class Search extends Component {
   };
 
   render() {
-    console.log("1");
     return (
       <View style={styles.container}>
         <View style={styles.container}>

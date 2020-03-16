@@ -1,5 +1,9 @@
 Arguments: 
+<<<<<<< HEAD
   C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add react-native-gesture-handler
+=======
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add react-navigation-tabs
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
 
 PATH: 
   C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Samsung\SamsungLink\AllShare Framework DMS\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\TmaxData\tibero6\bin;C:\TmaxData\tibero6\client\bin;C:\Program Files\PuTTY\;C:\Users\SSM\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\SSM\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SSM\AppData\Local\Programs\Python\Python37\;C:\Users\SSM\AppData\Local\Microsoft\WindowsApps;C:\intelFPGA\18.1\modelsim_ase\win32aloem;C:\Users\SSM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SSM\AppData\Roaming\npm;C:\Users\SSM\AppData\Roaming\nvm;C:\Program Files\nodejs
@@ -14,16 +18,23 @@ Platform:
   win32 x64
 
 Trace: 
+<<<<<<< HEAD
   Error: EPERM: operation not permitted, unlink 'C:\Users\SSM\Desktop\open_proj\khuhub\pocketMovie\node_modules\@emotion\is-prop-valid\dist'
+=======
+  Error: EPERM: operation not permitted, unlink 'C:\Users\SSM\Desktop\open_proj\pocketMovie\node_modules\@babel\generator\node_modules\.bin'
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
 
 npm manifest: 
   {
     "main": "node_modules/expo/AppEntry.js",
+<<<<<<< HEAD
     "rnpm": {
       "assets": [
         "./assets/fonts"
       ]
     },
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
     "scripts": {
       "start": "expo start",
       "android": "expo start --android",
@@ -34,28 +45,42 @@ npm manifest:
     "dependencies": {
       "axios": "^0.19.0",
       "expo": "^35.0.0",
+<<<<<<< HEAD
       "expo-font": "~7.0.0",
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
       "native-base": "^2.13.8",
       "react": "16.8.3",
       "react-dom": "16.8.3",
       "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
       "react-native-axios": "^0.17.1",
+<<<<<<< HEAD
       "react-native-elements": "^1.2.7",
       "react-native-gesture-handler": "^1.5.2",
+=======
+      "react-native-gesture-handler": "~1.3.0",
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
       "react-native-reanimated": "~1.2.0",
       "react-native-screens": "~1.0.0-alpha.23",
       "react-native-stack": "^1.0.0-alpha11",
       "react-native-web": "^0.11.7",
       "react-navigation": "^4.0.10",
       "react-navigation-stack": "^1.10.3",
+<<<<<<< HEAD
       "react-navigation-tabs": "^2.6.2",
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
       "request": "^2.88.0"
     },
     "devDependencies": {
       "babel-preset-expo": "^7.1.0"
     },
+<<<<<<< HEAD
     "private": true,
     "version": "0.0.0"
+=======
+    "private": true
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   }
 
 yarn manifest: 
@@ -1013,16 +1038,20 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.149.tgz#1342d63d948c6062838fbf961012f74d4e638440"
     integrity sha512-ijGqzZt/b7BfzcK9vTrS6MFljQRPn5BFWOx8oE0GYxribu6uV+aA9zZuXI1zc/etK9E8nrgdoF2+LgUw7+9tJQ==
   
+<<<<<<< HEAD
   "@types/prop-types@*":
     version "15.7.3"
     resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
     integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   "@types/qs@^6.5.1":
     version "6.9.0"
     resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.0.tgz#2a5fa918786d07d3725726f7f650527e1cfeaffd"
     integrity sha512-c4zji5CjWv1tJxIZkz1oUtGcdOlsH3aza28Nqmm+uNDWBRHoMsjooBEN4czZp1V3iXPihE/VRUOBqg+4Xq0W4g==
   
+<<<<<<< HEAD
   "@types/react-native-vector-icons@^6.4.4":
     version "6.4.4"
     resolved "https://registry.yarnpkg.com/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.4.tgz#f81dcc371b74a9c408ce12f95b8f494d7543146b"
@@ -1047,6 +1076,8 @@ Lockfile:
       "@types/prop-types" "*"
       csstype "^2.2.0"
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   "@types/uuid-js@^0.7.1":
     version "0.7.2"
     resolved "https://registry.yarnpkg.com/@types/uuid-js/-/uuid-js-0.7.2.tgz#5b5552fcbaaf4acf026fb6dc66f7e5bd6b4be92f"
@@ -1748,7 +1779,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
     integrity sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
   
+<<<<<<< HEAD
   color@^3.1.0, color@~3.1.2:
+=======
+  color@~3.1.2:
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
     version "3.1.2"
     resolved "https://registry.yarnpkg.com/color/-/color-3.1.2.tgz#68148e7f85d41ad7649c5fa8c8106f098d229e10"
     integrity sha512-vXTJhHebByxZn3lDvDJYw4lR5+uB3vuoHsuYA5AKuxRVn5wzzIfQKGLBmgdVRHKTJYeK5rvJcHnrd0Li49CFpg==
@@ -1920,11 +1955,14 @@ Lockfile:
       hyphenate-style-name "^1.0.2"
       isobject "^3.0.1"
   
+<<<<<<< HEAD
   csstype@^2.2.0:
     version "2.6.7"
     resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.7.tgz#20b0024c20b6718f4eda3853a1f5a1cce7f5e4a5"
     integrity sha512-9Mcn9sFbGBAdmimWb2gLVDtFJzeKtDGIr76TUqmjZrw9LFXBMSU70lcs+C0/7fyCd6iBDqmksUcCOUIkisPHsQ==
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   dashdash@^1.12.0:
     version "1.14.1"
     resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -1987,11 +2025,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
     integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
   
+<<<<<<< HEAD
   deepmerge@^3.1.0:
     version "3.3.0"
     resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-3.3.0.tgz#d3c47fd6f3a93d517b14426b0628a17b0125f5f7"
     integrity sha512-GRQOafGHwMHpjPx9iCvTgpu9NojZ49q794EEL94JVEw6VaeA8XTUyBKvAkOOjBX9oJNiV6G3P+T+tihFjo2TqA==
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   define-properties@^1.1.2:
     version "1.1.3"
     resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
@@ -2790,11 +2831,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
     integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
   
+<<<<<<< HEAD
   hammerjs@^2.0.8:
     version "2.0.8"
     resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
     integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   har-schema@^2.0.0:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
@@ -2871,7 +2915,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
     integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
   
+<<<<<<< HEAD
   hoist-non-react-statics@^3.0.1, hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0:
+=======
+  hoist-non-react-statics@^3.0.1, hoist-non-react-statics@^3.3.0:
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
     version "3.3.1"
     resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#101685d3aff3b23ea213163f6e8e12f4f111e19f"
     integrity sha512-wbg3bpgA/ZqWrZuMOeJi8+SKMhr7X9TesL/rXMjTzh0p0JUBo3II8DHboYbuIXWRlttrUFxwcu/5kygrCw8fJw==
@@ -4314,7 +4362,11 @@ Lockfile:
     dependencies:
       mimic-fn "^1.0.0"
   
+<<<<<<< HEAD
   opencollective-postinstall@^2.0.0, opencollective-postinstall@^2.0.2:
+=======
+  opencollective-postinstall@^2.0.2:
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
     version "2.0.2"
     resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
     integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
@@ -4734,11 +4786,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
     integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
   
+<<<<<<< HEAD
   react-lifecycles-compat@^3.0.4:
     version "3.0.4"
     resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
     integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   react-native-axios@^0.17.1:
     version "0.17.1"
     resolved "https://registry.yarnpkg.com/react-native-axios/-/react-native-axios-0.17.1.tgz#44292950aa07ceee2e4bd349106ff773bef81f8f"
@@ -4766,6 +4821,7 @@ Lockfile:
     dependencies:
       lodash "^4.17.15"
   
+<<<<<<< HEAD
   react-native-elements@^1.2.7:
     version "1.2.7"
     resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-1.2.7.tgz#1eca2db715c41722aeb67aea62bd2a4621adb134"
@@ -4789,6 +4845,16 @@ Lockfile:
       hoist-non-react-statics "^2.3.1"
       invariant "^2.2.4"
       prop-types "^15.7.2"
+=======
+  react-native-gesture-handler@~1.3.0:
+    version "1.3.0"
+    resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.3.0.tgz#d0386f565928ccc1849537f03f2e37fd5f6ad43f"
+    integrity sha512-ASRFIXBuKRvqlmwkWJhV8yP2dTpvcqVrLNpd7FKVBFHYWr6SAxjGyO9Ik8w1lAxDhMlRP2IcJ9p9eq5X2WWeLQ==
+    dependencies:
+      hoist-non-react-statics "^2.3.1"
+      invariant "^2.2.2"
+      prop-types "^15.5.10"
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   
   react-native-iphone-x-helper@^1.0.3:
     version "1.2.1"
@@ -4803,6 +4869,7 @@ Lockfile:
       prop-types "^15.6.2"
       react-native-iphone-x-helper "^1.0.3"
   
+<<<<<<< HEAD
   react-native-ratings@^6.3.0:
     version "6.5.0"
     resolved "https://registry.yarnpkg.com/react-native-ratings/-/react-native-ratings-6.5.0.tgz#a1606ccba3c5b54eec8e6cfa4765a45cf0e4ab8d"
@@ -4811,12 +4878,18 @@ Lockfile:
       lodash "^4.17.4"
       prop-types "^15.5.10"
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   react-native-reanimated@~1.2.0:
     version "1.2.0"
     resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.2.0.tgz#9219227a52a5dfa4d34c324596d6726ccd874293"
     integrity sha512-vkWRHrPK5qfHP/ZawlRoo38oeYe9NZaaOH/lmFxRcsKzaSK6x3H5ZPXI8lK6MfTLveqwo1QhJje3zIKXO4nQQw==
   
+<<<<<<< HEAD
   react-native-safe-area-view@^0.14.1, react-native-safe-area-view@^0.14.6:
+=======
+  react-native-safe-area-view@^0.14.1:
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
     version "0.14.8"
     resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.14.8.tgz#ef33c46ff8164ae77acad48c3039ec9c34873e5b"
     integrity sha512-MtRSIcZNstxv87Jet+UsPhEd1tpGe8cVskDXlP657x6rHpSrbrc+y13ZNXrwAgGNNhqQNX7UJT68ZIq//ZRmvw==
@@ -4841,6 +4914,7 @@ Lockfile:
       tiny-invariant "^1.0.4"
       tiny-warning "^1.0.2"
   
+<<<<<<< HEAD
   react-native-status-bar-height@^2.2.0:
     version "2.4.0"
     resolved "https://registry.yarnpkg.com/react-native-status-bar-height/-/react-native-status-bar-height-2.4.0.tgz#de8cee4bb733a196167210d2d0bc1fa10acba3e3"
@@ -4851,6 +4925,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-2.11.0.tgz#2e57d1f617ccc88c7f452708804f3409f880b700"
     integrity sha512-vqetlxGO7A8bnqvXcB50MWpRZAImXFrDGz1WCQKdCqe03Ey3ZzENe7yLuWrtBJYlepGfOLAsmCXv+wW82Yfm1w==
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   react-native-vector-icons@^6.6.0:
     version "6.6.0"
     resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-6.6.0.tgz#66cf004918eb05d90778d64bd42077c1800d481b"
@@ -4943,6 +5019,7 @@ Lockfile:
     dependencies:
       prop-types "^15.7.2"
   
+<<<<<<< HEAD
   react-navigation-tabs@^2.6.2:
     version "2.6.2"
     resolved "https://registry.yarnpkg.com/react-navigation-tabs/-/react-navigation-tabs-2.6.2.tgz#6611f3bbc5fcbc004a96a457e1dbe8d957d09ef5"
@@ -4953,6 +5030,8 @@ Lockfile:
       react-native-safe-area-view "^0.14.6"
       react-native-tab-view "^2.11.0"
   
+=======
+>>>>>>> 997e4377c4a9d2ebce4d76f1dfeeaee8304336b1
   react-navigation@^4.0.10:
     version "4.0.10"
     resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-4.0.10.tgz#ddf41134600689d6ba99e35dd22ba1f664f91e5c"
